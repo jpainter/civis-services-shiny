@@ -1,4 +1,4 @@
-FFROM ddarko/civis-services-shiny:latest
+FROM ddarko/civis-services-shiny:latest
 
 
 # Shiny folder and default app
