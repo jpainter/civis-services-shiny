@@ -56,7 +56,7 @@ RUN Rscript -e  "update.packages( ask = FALSE )"
 
 # install R packages
 COPY ./requirements.txt /requirements.txt
-RUN Rscript -e "packages <- readLines('/requirements.txt'); install.packages( packages , repos='http://cran.us.r-project.org' )"
+RUN Rscript -e "packages <- readLines('/requirements.txt'); install.packages( packages , repos='http://cran.us.r-project.org', dependencies = TRUE )"
 
 
 # Shiny folder and default app
