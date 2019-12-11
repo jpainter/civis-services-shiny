@@ -23,6 +23,14 @@ dygraphs
 DT
 shiny
 shinydashboard
+shinyBS
+shinyLP
+jsonlite
+httr
+sttringi
+futile.logger
+utils
+textutils
 rgdal
 rgeos
 wellknown
@@ -45,3 +53,5 @@ tsibble
 fable
 feasts
 smooth
+readxl
+openxlsx
