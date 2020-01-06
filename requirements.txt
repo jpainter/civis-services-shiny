@@ -1,5 +1,5 @@
 shiny 
-shinjs
+shinyjs
 shinydashboard 
 shinyBS 
 shinyLP
