@@ -1,4 +1,5 @@
 shiny 
+shinjs
 shinydashboard 
 shinyBS 
 shinyLP
@@ -9,6 +10,7 @@ knitr
 rlang
 stringi
 tidyselect
+geojsonsf
 jsonlite
 httr
 curl 
@@ -20,3 +22,6 @@ DT
 textutils
 readxl
 openxlsx
+anytime
+lubridate
+sf
