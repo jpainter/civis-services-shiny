@@ -1,10 +1,14 @@
-shiny 
+shiny
 shinyjs
-shinydashboard 
-shinyBS 
+shinydashboard
+shinyBS
 shinyLP
-plotly 
+tmap
+leaflet
+RColorBrewer
+plotly
 tidyverse
+googleVis
 scales
 knitr
 rlang
@@ -14,7 +18,7 @@ geojsonsf
 geojsonio
 jsonlite
 httr
-curl 
+curl
 assertthat
 knitrProgressBar
 futile.logger
@@ -22,7 +26,5 @@ utils
 DT
 textutils
 readxl
-openxlsx
+openxlsx 
 anytime
-lubridate
-sf
