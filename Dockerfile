@@ -36,9 +36,8 @@ RUN apt-get  update && apt-get install -y \
 RUN apt-get  update && apt-get install -y \  
     r-base
 
-# update R    
-RUN apt-get  update && apt-get install -y \ 
-    r-base-dev
+# update V8 engine for mapping https://github.com/jeroen/V8#installation    
+RUN apt-get install -y libv8-dev 
 
 # OpenBlas library to get higher performance for linear algebra operations
 RUN apt-get  update && apt-get install -y \     
